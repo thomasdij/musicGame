@@ -23,6 +23,7 @@ public class ManageMeasureProgress : MonoBehaviour
         MeasureCount= 0;
         _audioSource = GetComponent<AudioSource>();
         _audioSource.Play();
+
     }
 
     void FixedUpdate()
