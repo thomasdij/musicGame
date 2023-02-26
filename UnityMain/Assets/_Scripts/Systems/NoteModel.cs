@@ -99,9 +99,9 @@ public class NoteModel
         return ChordalDissonance;
     }
 
-    public float HarmonicTension(float pitch)
+    public float HarmonicTension(float pitch1, float pitch2)
     {
-        int row = (int)Math.Round(pitch - 1);
+        int row = (int)Math.Round(Mathf.Abs(pitch1 - pitch2));
         float HarmonicDissonance = (float)(TensionCoefficients["HarmonicDissonance"][row + 1]);
         return HarmonicDissonance;
     }

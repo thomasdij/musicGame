@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1280
     height: 629.3334
   m_ShowMode: 4
-  m_Title: Test Runner
+  m_Title: Project
   m_RootView: {fileID: 7}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -42,9 +42,9 @@ MonoBehaviour:
     x: 328
     y: 0
     width: 636
-    height: 293.33334
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+    height: 376
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 17
+  controlID: 122
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -94,8 +94,8 @@ MonoBehaviour:
     y: 0
     width: 316
     height: 579.3334
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -119,7 +119,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 120
-    height: 293.33334
+    height: 376
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 16}
@@ -143,9 +143,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 293.33334
+    y: 376
     width: 964
-    height: 286.00003
+    height: 203.33337
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 14}
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 22
+  controlID: 123
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -271,11 +271,11 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 964
-    height: 293.33334
+    height: 376
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 23
+  controlID: 124
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -294,7 +294,7 @@ MonoBehaviour:
     x: 120
     y: 0
     width: 208
-    height: 293.33334
+    height: 376
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 17}
@@ -323,31 +323,31 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 328
-    y: 72.66667
+    x: -21005.334
+    y: -21303.334
     width: 634
-    height: 272.33334
+    height: 355
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
   m_Spl:
-    ID: 146
-    splitterInitialOffset: 164.66667
+    ID: 134
+    splitterInitialOffset: 206.66667
     currentActiveSplitter: -1
     realSizes:
-    - 99.333336
-    - 102.666664
+    - 137.33333
+    - 147.33333
     relativeSizes:
-    - 0.49161083
-    - 0.5083892
+    - 0.48243564
+    - 0.51756436
     minSizes:
     - 32
     - 32
     maxSizes:
     - 0
     - 0
-    lastTotalSize: 202
+    lastTotalSize: 284.66666
     splitSize: 6
     xOffset: 0
     m_Version: 1
@@ -415,9 +415,9 @@ MonoBehaviour:
       uniqueId: '[My project][suite]'
       name: My project
       fullName: My project
-      resultStatus: 2
-      duration: 0.0890442
-      messages: One or more child tests had errors
+      resultStatus: 1
+      duration: 0.2952721
+      messages: 
       output: 
       stacktrace: 
       notRunnable: 0
@@ -428,12 +428,12 @@ MonoBehaviour:
       parentId: 
       parentUniqueId: 
     - id: 1004
-      uniqueId: '[Tests][C:/Users/tddij/Unity Projects/MusicGame/Main/Library/ScriptAssemblies/Tests.dll][suite]'
+      uniqueId: '[Tests][C:/Users/tddij/Unity Projects/MusicGame/UnityMain/Library/ScriptAssemblies/Tests.dll][suite]'
       name: Tests.dll
-      fullName: C:/Users/tddij/Unity Projects/MusicGame/Main/Library/ScriptAssemblies/Tests.dll
-      resultStatus: 2
-      duration: 0.0369894
-      messages: One or more child tests had errors
+      fullName: C:/Users/tddij/Unity Projects/MusicGame/UnityMain/Library/ScriptAssemblies/Tests.dll
+      resultStatus: 1
+      duration: 0.1227469
+      messages: 
       output: 
       stacktrace: 
       notRunnable: 0
@@ -444,12 +444,45 @@ MonoBehaviour:
       parentId: 1000
       parentUniqueId: '[My project][suite]'
     - id: 1001
+      uniqueId: Tests.dll/[Tests][chordModel][suite]
+      name: chordModel
+      fullName: chordModel
+      resultStatus: 1
+      duration: 0.1058253
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1007
+      parentUniqueId: '[Tests][C:/Users/tddij/Unity Projects/MusicGame/UnityMain/Library/ScriptAssemblies/Tests.dll][suite]'
+    - id: 1002
+      uniqueId: Tests.dll/chordModel/[Tests][chordModel.ChordModel_root_returns_actual_root]
+      name: ChordModel_root_returns_actual_root
+      fullName: chordModel.ChordModel_root_returns_actual_root
+      resultStatus: 1
+      duration: 0.0808407
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/[Tests][chordModel][suite]
+    - id: 1001
       uniqueId: Tests.dll/[Tests][noteModel][suite]
       name: noteModel
       fullName: noteModel
-      resultStatus: 2
-      duration: 0.0353667
-      messages: One or more child tests had errors
+      resultStatus: 1
+      duration: 0.0125074
+      messages: 
       output: 
       stacktrace: 
       notRunnable: 0
@@ -463,33 +496,8 @@ MonoBehaviour:
       uniqueId: Tests.dll/noteModel/[Tests][noteModel.ChordalTension_Returns_1st_ChordalDissonance_Value_from_Tonic_Note_Reference]
       name: ChordalTension_Returns_1st_ChordalDissonance_Value_from_Tonic_Note_Reference
       fullName: noteModel.ChordalTension_Returns_1st_ChordalDissonance_Value_from_Tonic_Note_Reference
-      resultStatus: 2
-      duration: 0.0100528
-      messages: 'System.NullReferenceException : Object reference not set to an instance
-        of an object'
-      output: 
-      stacktrace: "  at ChordModel..ctor (System.Single root, System.Single third,
-        System.Single fifth) [0x00008] in C:\\Users\\tddij\\Unity Projects\\MusicGame\\Main\\Assets\\_Scripts\\Systems\\ChordModel.cs:14
-        \r\n  at noteModel.ChordalTension_Returns_1st_ChordalDissonance_Value_from_Tonic_Note_Reference
-        () [0x00001] in C:\\Users\\tddij\\Unity Projects\\MusicGame\\Main\\Assets\\Tests\\noteModel.cs:27
-        \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
-        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
-        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
-        System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 "
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: Tests.dll/[Tests][noteModel][suite]
-    - id: 1002
-      uniqueId: Tests.dll/noteModel/[Tests][noteModel.PitchTension_Returns_1st_PitchHeight_Value_from_Tonic_Note_Reference]
-      name: PitchTension_Returns_1st_PitchHeight_Value_from_Tonic_Note_Reference
-      fullName: noteModel.PitchTension_Returns_1st_PitchHeight_Value_from_Tonic_Note_Reference
       resultStatus: 1
-      duration: 0.0116563
+      duration: 0.0015958
       messages: 
       output: 
       stacktrace: 
@@ -501,13 +509,47 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1001
       parentUniqueId: Tests.dll/[Tests][noteModel][suite]
-    m_ResultText: PitchTension_Returns_1_from_Tonic_Note_Reference (0.094s)
+    - id: 1006
+      uniqueId: Tests.dll/noteModel/[Tests][noteModel.HarmonicTension_Returns_Zero_from_Unison]
+      name: HarmonicTension_Returns_Zero_from_Unison
+      fullName: noteModel.HarmonicTension_Returns_Zero_from_Unison
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1003
+      parentUniqueId: Tests.dll/[Tests][noteModel][suite]
+    - id: 1002
+      uniqueId: Tests.dll/noteModel/[Tests][noteModel.PitchTension_Returns_1st_PitchHeight_Value_from_Tonic_Note_Reference]
+      name: PitchTension_Returns_1st_PitchHeight_Value_from_Tonic_Note_Reference
+      fullName: noteModel.PitchTension_Returns_1st_PitchHeight_Value_from_Tonic_Note_Reference
+      resultStatus: 1
+      duration: 0.0003875
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/[Tests][noteModel][suite]
+    m_ResultText: ChordModel_root_returns_actual_root (0.081s)
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 7897aa95
-      m_LastClickedID: -1783982216
-      m_ExpandedIDs: ba9acd8d2331572b03fe4433ffffff7f
+      m_SelectedIDs: bc253f41
+      m_LastClickedID: 1094657468
+      m_ExpandedIDs: ba9acd8d7491439ea41298d32331572b03fe4433ffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -553,10 +595,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 366
+    x: -21333.334
+    y: -20927.334
     width: 963
-    height: 265.00003
+    height: 182.33337
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -574,22 +616,22 @@ MonoBehaviour:
     m_SkipHidden: 1
     m_SearchArea: 1
     m_Folders:
-    - Assets/_Scripts/Units
+    - Assets/Tests
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/_Scripts/Units
+  - Assets/Tests
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: C:\Users\tddij\Unity Projects\MusicGame\Main
+  m_LastProjectPath: C:\Users\tddij\Unity Projects\MusicGame\UnityMain
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 2e6c0000
-    m_LastClickedID: 27694
-    m_ExpandedIDs: 00000000206c0000226c0000246c0000266c0000286c00002a6c00002c6c00002e6c0000ffffff7f
+    scrollPos: {x: 0, y: 262.50107}
+    m_SelectedIDs: bc6f0000
+    m_LastClickedID: 28604
+    m_ExpandedIDs: 00000000226c0000246c0000266c0000286c00002a6c00002c6c00002e6c0000306c0000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -617,7 +659,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000206c0000226c0000246c0000266c0000286c00002a6c00002c6c00002e6c0000
+    m_ExpandedIDs: 00000000226c0000246c0000266c0000286c00002a6c00002c6c00002e6c0000306c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -644,7 +686,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -693,8 +735,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 964
-    y: 72.66667
+    x: -20369.334
+    y: -21303.334
     width: 315
     height: 558.3334
   m_ViewDataDictionary: {fileID: 0}
@@ -734,10 +776,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 72.66667
+    x: -21333.334
+    y: -21303.334
     width: 119
-    height: 272.33334
+    height: 355
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -745,9 +787,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: fa0f0000
+      m_SelectedIDs: 58230000
       m_LastClickedID: 0
-      m_ExpandedIDs: 8ed3ffff1ed6ffff76d9ffff52daffff1adbffff56ddffff5ce0ffff40e4ffff2aebffff4cebffff5cedffff14faffff468d0000
+      m_ExpandedIDs: 14faffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -791,10 +833,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 120
-    y: 72.66667
+    x: -21213.334
+    y: -21303.334
     width: 206
-    height: 272.33334
+    height: 355
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1244,9 +1286,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 366
+    y: 448.6667
     width: 963
-    height: 265.00003
+    height: 182.33337
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default

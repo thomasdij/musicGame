@@ -31,4 +31,11 @@ public class noteModel
         // Assert
         Assert.AreEqual(testNoteModel.TensionCoefficients["ChordalDissonance"][1], testChordalTension);
     }
+    [Test]
+    public void HarmonicTension_Returns_Zero_from_Unison()
+    {
+        NoteModel testNoteModel = new NoteModel();
+        float testHarmonicTension = testNoteModel.HarmonicTension(0f,0f);
+        Assert.AreEqual(testHarmonicTension, 0f);
+    }
 }

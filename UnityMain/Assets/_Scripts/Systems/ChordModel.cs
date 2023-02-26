@@ -11,12 +11,14 @@ public class ChordModel
     }
     public ChordModel(float root, float third, float fifth)
     {
+        ChordPitches = new Dictionary<string, float>();
         ChordPitches.Add("root", root);
         ChordPitches.Add("third", third);
         ChordPitches.Add("fifth", fifth);
     }
     public ChordModel(float root, float third, float fifth, float colorTone1)
     {
+        ChordPitches = new Dictionary<string, float>();
         ChordPitches.Add("root", root);
         ChordPitches.Add("third", third);
         ChordPitches.Add("fifth", fifth);
@@ -24,6 +26,7 @@ public class ChordModel
     }
     public ChordModel(float root, float third, float fifth, float colorTone1, float colorTone2)
     {
+        ChordPitches = new Dictionary<string, float>();
         ChordPitches.Add("root", root);
         ChordPitches.Add("third", third);
         ChordPitches.Add("fifth", fifth);
@@ -32,6 +35,7 @@ public class ChordModel
     }
     public ChordModel(float root, float third, float fifth, float colorTone1, float colorTone2, float colorTone3)
     {
+        ChordPitches = new Dictionary<string, float>();
         ChordPitches.Add("root", root);
         ChordPitches.Add("third", third);
         ChordPitches.Add("fifth", fifth);
@@ -41,6 +45,7 @@ public class ChordModel
     }
     public void AddColorTone (ChordModel chordModel, float colorTone) 
     {
+        ChordPitches = new Dictionary<string, float>();
         int colorToneSignifier = chordModel.ChordPitches.Count - 2;
         ChordPitches.Add("colorTone" + colorToneSignifier, colorTone);
     }
